@@ -1,8 +1,6 @@
 ## makeCacheMatrix creates a special matrix object that can cache its inverse.
 ## It returns 4 functions: set, get, setInverse, GetInverse
 
-## Write a short comment describing this function
-
 makeCacheMatrix <- function(x = matrix()) {
         ## Set the inverse to an empty matrix
         i <- matrix()
