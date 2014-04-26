@@ -44,14 +44,14 @@ cacheSolve <- function(x, ...) {
         ## If the 1st value's NA, calculate the inverse and cache it        
         } else {
         
-        ## Get the initial matrix        
-        data <- x$get()
+                ## Get the initial matrix        
+                data <- x$get()
         
-        ## Calculate the inverse matrix
-        m <- solve(data)
+                ## Calculate the inverse matrix
+                m <- solve(data)
         
-        ## Cache the inverse matrix
-        x$setInverse(m)
+                ## Cache the inverse matrix
+                x$setInverse(m)
         }
         
         ## Return the inverse matrix
